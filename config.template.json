@@ -1,0 +1,14 @@
+{
+  "agenda": "http://localhost:3030/agenda.ics",
+  "categories": {
+    "224bc19d-16c0-4759-bb07-b6783a668924": [
+      "ACME"
+    ],
+    "014833bc-a0ae-4428-932e-03af2d4f092d": [
+      "Foo", "Bar"
+    ],
+    "6bbc502b-4850-462f-8abd-218fc5d35972": [
+      "ACME", "Foo", "Bar"
+    ]
+  }
+}
