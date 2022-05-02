@@ -1,4 +1,4 @@
-import { HiddenName } from '../../../../src/agenda/domain/Slot';
+import { HiddenName } from '../../../../src/agenda/domain/slot/SlotContent';
 import { UID } from '../../../../src/common/UID';
 
 import { makeCalendar } from './Calendar.fixture';

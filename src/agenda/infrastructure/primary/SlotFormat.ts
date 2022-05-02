@@ -1,6 +1,7 @@
 import { EventAttributes } from 'ics';
 
-import { HiddenName, Slot, SlotName } from '../../domain/Slot';
+import { Slot } from '../../domain/slot/Slot';
+import { HiddenName, SlotName } from '../../domain/slot/SlotContent';
 
 export interface SlotJSON {
   name: string;

@@ -4,7 +4,7 @@ import { Calendar } from '../../../../../src/agenda/domain/Calendar';
 import { Category } from '../../../../../src/agenda/domain/Category';
 import { exposeExpress } from '../../../../../src/agenda/infrastructure/primary/ExposeExpress';
 import { makeCalendar } from '../../domain/Calendar.fixture';
-import { makeSlots } from '../../domain/Slots.fixture';
+import { makeSlots } from '../../domain/slot/Slots.fixture';
 
 describe('Expose Calendar', () => {
   it('Should get day list', async () => {

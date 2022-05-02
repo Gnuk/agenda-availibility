@@ -36,11 +36,12 @@ describe('Calendar', () => {
 
     const response = await request(app).get('/calendar/5f3cdc52-4fa4-48ba-90ab-97a1d136143e').expect(200);
 
-    const [first, second] = response.body;
+    const [first, second, , , ...fifth] = response.body;
     expect(first.day).toBe('2022-04-27');
     expect(first.name).toBe('Busy');
     expect(second.day).toBe('2022-04-26');
     expect(second.name).toBe('Pear');
+    expect(fifth.map(({ day }: { day: string }) => day)).toEqual(['2022-05-15', '2022-05-16']);
   });
 
   it('Should list slots in a calendar', async () => {
