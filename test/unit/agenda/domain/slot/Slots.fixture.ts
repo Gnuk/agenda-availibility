@@ -1,8 +1,8 @@
-import { Category } from '../../../../src/agenda/domain/Category';
-import { Name } from '../../../../src/agenda/domain/Name';
-import { Slots } from '../../../../src/agenda/domain/Slots';
-import { SlotsInMemory } from '../../../../src/agenda/domain/SlotsInMemory';
-import { LocalDate } from '../../../../src/common/LocalDate';
+import { Category } from '../../../../../src/agenda/domain/Category';
+import { Name } from '../../../../../src/agenda/domain/Name';
+import { Slots } from '../../../../../src/agenda/domain/slot/Slots';
+import { SlotsInMemory } from '../../../../../src/agenda/domain/slot/SlotsInMemory';
+import { LocalDate } from '../../../../../src/common/LocalDate';
 
 export const makeSlots = (): Slots =>
   new SlotsInMemory([

@@ -2,8 +2,9 @@ import { UID } from '../../common/UID';
 
 import { Categories } from './Categories';
 import { Category } from './Category';
-import { HiddenName, Slot } from './Slot';
-import { Slots } from './Slots';
+import { Slot } from './slot/Slot';
+import { HiddenName } from './slot/SlotContent';
+import { Slots } from './slot/Slots';
 
 const permitSlot =
   (categories: Category[]) =>

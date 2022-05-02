@@ -4,7 +4,7 @@ import * as ics from 'ics';
 
 import { UID } from '../../../common/UID';
 import { Injection } from '../../../Injection';
-import { Slot } from '../../domain/Slot';
+import { Slot } from '../../domain/slot/Slot';
 
 import { notBadRequest } from './errors/HttpAssert';
 import { SlotJSON, toEventAttributes, toSlotJSON } from './SlotFormat';
